@@ -1,0 +1,150 @@
+\ProvidesPackage{preamble-alice}
+
+\usepackage[brazilian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath, amsthm, amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+\usepackage[left = 20mm, right = 20mm, top=25mm, bottom=30mm, headsep=7mm]{geometry}
+\usepackage{cancel}
+\usepackage{physics}
+\usepackage{xcolor}
+\usepackage{xparse}
+\usepackage{marvosym}
+\usepackage[fixamsmath]{mathtools}  % Extension to amsmath
+\usepackage[cal=cm, scr=rsfs, frak=euler, bb=ams]{mathalpha}
+\usepackage{caption}
+\usepackage[cm]{sfmath}
+\usepackage{quiver}
+\usepackage{faktor}
+
+\hfuzz=2000pt
+
+% operatorname usar fonte sans serif
+\DeclareSymbolFont{sansops}{OT1}{\sfdefault}{m}{n}
+\SetSymbolFont{sansops}{bold}{OT1}{\sfdefault}{b}{n}
+
+\makeatletter
+\renewcommand\operator@font{\mathgroup\symsansops}
+\makeatother
+
+% Cabeçalho
+\usepackage[headsepline, automark]{scrlayer-scrpage}
+\usepackage[pdfencoding=auto, psdextra]{hyperref}
+\hypersetup{
+    colorlinks=true, %set true if you want colored links
+    allcolors = darkgray,  %choose some color if you want links to stand outlink
+}
+\usepackage[brazilian]{cleveref}
+
+\let\Chaptermark\chaptermark
+\def\chaptermark#1{\def\Chaptername{#1}\Chaptermark{#1}}
+
+\usetikzlibrary{arrows.meta, decorations.markings}
+
+\tikzset{
+  arrow/.style={postaction={decorate},
+    decoration={markings,mark=at position .5 with {\arrow{>}}}
+  },
+}
+
+\pagestyle{scrheadings}
+\setkomafont{pageheadfoot}{\large}
+\clearpairofpagestyles
+\ohead{}
+\ihead{Seção \thechapter}
+\ohead{\Chaptername}
+\cfoot*{\small\pagemark}
+
+\renewcommand*\contentsname{Sumário}
+
+% titulos
+
+% Ajuste do formato do número do capítulo
+\makeatletter
+\renewcommand*{\chapterformat}{%
+  \color{darkgray}%
+  \thechapter\hspace{10pt}%
+  \rule[-0.5ex]{1pt}{2.5ex}\hspace{10pt}%
+}
+\renewcommand*{\sectionformat}{\color{darkgray} \thesection \hspace{10pt}}
+\renewcommand*{\subsectionformat}{\color{darkgray} \thesubsection \hspace{10pt}}
+\renewcommand*{\subsubsectionformat}{\color{darkgray} \thesubsubsection \hspace{10pt}}
+\makeatother
+
+% Estilo do título do capítulo
+\addtokomafont{chapter}{\normalfont\Huge\sffamily}
+\addtokomafont{section}{\normalfont\LARGE\sffamily}
+\addtokomafont{subsection}{\normalfont\Large\sffamily}
+\addtokomafont{subsubsection}{\normalfont\large\sffamily}
+
+
+\AfterTOCHead[toc]{\large}
+
+\graphicspath{ {./images/} }
+
+\renewcommand{\S}{\mathbb{S}}
+\renewcommand{\cot}{\mathrm{cotan}}
+\renewcommand{\sin}{\mathrm{sen}}
+\newcommand{\R}{\mathbb{R}}
+\def\mbb#1{\mathbb{#1}}
+\def\mfk#1{\mathfrak{#1}}
+\def\N{\mbb{N}}
+\def\C{\mbb{C}}
+\def\Q{\mbb{Q}}
+\def\Z{\mbb{Z}}
+\newcommand{\RP}{\mathbb{R}\boldsymbol{\mathrm{P}}}
+\newcommand{\SO}{\mathrm{SO}}
+\newcommand{\gtext}[1]{g_\mathrm{#1}}
+\newcommand\defeq{\stackrel{\mathclap{\mbox{\scriptsize\text{def}}}}{=}}
+\let\marvosymLightning\Lightning
+\newcommand{\catname}[1]{\textnormal{\textbf{#1}}}
+\newcommand{\from}{\colon}
+
+\definecolor{lightningyellow}{RGB}{247, 180, 0}
+\newcommand{\contradiction}{\hfill\textcolor{lightningyellow}{\text{\LARGE \Lightning}}}
+
+\linespread{1.1}
+
+\DeclareMathOperator{\vol}{vol}
+\DeclareMathOperator{\sen}{sen}
+\DeclareMathOperator{\Int}{int}
+\DeclareMathOperator{\im}{im}
+\DeclareMathOperator{\End}{End}
+\DeclareMathOperator{\Hom}{Hom}
+\DeclareMathOperator{\Ann}{Ann}
+\DeclareMathOperator{\id}{id}
+\DeclareMathOperator{\Obj}{Obj}
+\DeclareMathOperator{\Vect}{Vect}
+\newcommand{\Rmod}{{}_{R}\catname{Mod}}
+\newcommand{\Smod}{{}_{S}\catname{Mod}}
+\DeclarePairedDelimiterX{\inp}[2]{\langle}{\rangle}{#1, #2}
+\renewcommand{\epsilon}{\varepsilon}
+\renewcommand{\phi}{\varphi}
+\newcommand \de[2]  { \frac{\mathrm d{#1}}{\mathrm d{#2}}   }
+
+\newcommand{\localtextbulletone}{\textcolor{darkgray}{\raisebox{.45ex}{\rule{.6ex}{.6ex}}}}
+\renewcommand{\labelitemi}{\localtextbulletone}
+
+\let\oldemptyset\emptyset
+\let\emptyset\varnothing
+\let\leq\leqslant
+\let\geq\geqslant
+\let\subset\subseteq
+\let\supset\supseteq
+
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+
+\usepackage[sfdefault]{AlegreyaSans}
+
+\everymath{\displaystyle}
+
+\topmargin=-0.2in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.2in
+\setlength{\footheight}{20pt}
+\setlength{\headheight}{20pt}

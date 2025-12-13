@@ -1,0 +1,43 @@
+\date{2025-12-13}
+\import{macros}
+\title{Lema da Cisão}
+\taxon{Lema}
+
+\p{Dada uma sequência exata curta
+  % https://q.uiver.app/#q=WzAsNSxbMCwwLCIwIl0sWzEsMCwiTCJdLFsyLDAsIk0iXSxbMywwLCJOIl0sWzQsMCwiMCJdLFswLDFdLFsxLDIsImYiXSxbMiwzLCJnIl0sWzMsNF1d
+  \quiver{\begin{tikzcd}
+    0 & L & M & N & 0
+    \arrow[from=1-1, to=1-2]
+    \arrow["f", from=1-2, to=1-3]
+    \arrow["g", from=1-3, to=1-4]
+    \arrow[from=1-4, to=1-5]
+  \end{tikzcd}}
+  as seguintes afirmações são equivalentes:
+  \ul{
+      \li{Existe um homomorfismo #{t \from M \to L} tal que #{t \circ f = \id_L};}
+      \li{Existe um homomorfismo #{u \from N \to M} tal que #{g \circ u = \id_N};}
+      \li{Existe um isomorfismo #{h \from M \to L \oplus N} tal que o seguinte diagrama comuta:
+      % https://q.uiver.app/#q=WzAsNixbMCwxLCIwIl0sWzEsMSwiTCJdLFsyLDAsIk0iXSxbMiwyLCJMIFxcb3BsdXMgTiJdLFszLDEsIk4iXSxbNCwxLCIwIl0sWzAsMV0sWzEsMywiXFxpb3RhX0wiLDJdLFszLDQsIlxccGlfTiIsMl0sWzQsNV0sWzEsMiwiZiJdLFsyLDQsImciXSxbMiwzLCJoIiwwLHsic3R5bGUiOnsidGFpbCI6eyJuYW1lIjoiYXJyb3doZWFkIn0sImJvZHkiOnsibmFtZSI6ImRhc2hlZCJ9fX1dXQ==
+      \quiver{\begin{tikzcd}
+        && M \\
+        0 & L && N & 0 \\
+        && {L \oplus N}
+        \arrow["g", from=1-3, to=2-4]
+        \arrow["h", dashed, from=1-3, to=3-3]
+        \arrow[from=2-1, to=2-2]
+        \arrow["f", from=2-2, to=1-3]
+        \arrow["{\iota_L}"', from=2-2, to=3-3]
+        \arrow[from=2-4, to=2-5]
+        \arrow["{\pi_N}"', from=3-3, to=2-4]
+      \end{tikzcd}}}
+  }}
+
+\proof{
+    \p{\strong{#{3. \Rightarrow 1.}} Tome #{t = \pi_L \circ h}.}
+    \p{\strong{#{3. \Rightarrow 2.}} Tome #{u = h^{-1} \circ \iota_N}.}
+    \p{\strong{#{1. \Rightarrow 3.}} Primeiro, observe que #{\ker t + \im f \subset M}, por definição. Queremos mostrar que #{M \subset \ker t + \im f} também: Dado #{m \in M}, podemos escrever #{m = (m - f(t(m))) + f(t(m))}, onde #{f(t(m)) \in \im f} e #{(m - f(t(m))) \in \ker t}, uma vez que ##{t(m - f(t(m))) = t(m) - t(f(t(m))) = t(m) - t(m) = 0.}
+    Portanto #{B = \ker t + \im t}. Mostraremos agora que #{\ker t \cap \im f = \{0\}}: Dado #{d \in \ker t \cap \im f}, temos #{t(d) = 0} e #{d = f(l)}, para algum #{l \in L}. No entanto, #{l = t(f(l)) = t(d) = 0}, e como #{f} é homomorfismo, #{d = 0} também.}
+
+    Dessa forma, #{M = \ker t \,\oplus\, \im f}. Agora, basta mostrar que #{\ker t \cong N} e #{\im f \cong L}. Como #{f}, #{L = L / \ker f \cong \im f}. Para a outra igualdade, observe que como #{M = \ker t \, \oplus \, \im f}, dado #{m \in M}, #{m} é da forma #{m = f(l) + k}, para #{l \in L} e #{k \in \ker t}. Sendo #{g} sobrejetor, para todo #{n \in N}, existe um #{m \in M}  tal que #{n = g(m) = g(f(l) + k) = g(f(l)) + g(k) = g(k)}, e #{g[\ker t] = N}, e #{g|_{\ker t}} é sobrejetiva, e resta mostrar que é injetiva. Como #{\ker g = \im f}, #{t \in \ker t} é tal que #{g(t) = 0 \iff t \in \ker t \cap \im f}, que já mostramos que é #{\{0\}}. Portanto #{g|_{\ker t}} é um isomorfismo, e #{\ker t \cong N}.
+    \p{\strong{#{2. \Rightarrow 3.}} Analogamente ao caso anterior, podemos mostrar que #{M = \ker g \oplus \im u}. Já sabemos que #{L \cong \im f = \ker g}, e #{\im u \cong N} já que #{\id_N = g \circ u} é uma bijeção, o que implica a injetividade de #{u}, e portanto #{N \cong N / \ker u \cong \im u}. Assim, #{M \cong L \oplus N}.}
+}
