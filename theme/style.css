@@ -684,10 +684,6 @@ ol li ol li ol {
     border-right: 0;
   }
 
-  body {
-    -webkit-text-stroke-width: 0.25pt;
-  }
-
   span.tikzcd img {
     filter: url('#filter');
   }
