@@ -687,6 +687,10 @@ ol li ol li ol {
   span.tikzcd img {
     filter: url('#filter');
   }
+
+  img {
+    max-width: 100%;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
