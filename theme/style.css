@@ -690,6 +690,9 @@ ol li ol li ol {
 
   img {
     max-width: 100%;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
   }
 }
 
