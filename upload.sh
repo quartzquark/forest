@@ -1,3 +1,5 @@
+rm -rf build/
+rm -rf output/
 forester build
 
 git add .
