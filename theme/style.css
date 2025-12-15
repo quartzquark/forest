@@ -693,6 +693,8 @@ ol li ol li ol {
     width: 100%;
     overflow-x: auto;
     overflow-y: hidden;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 }
 
