@@ -23,7 +23,7 @@
   \end{tikzcd}}
   Seguindo o diagrama por cima, temos ##{(\eta_c(Z) \circ g_*)(f) = \eta_c(Z)(g \circ f) = F(g \circ f)(c).} Por baixo, obtemos ##{(F(g) \circ \eta_c(Y))(f) = F(g) \circ F(f)(c) = F(g \circ f)(c).}}
 
-  \p{Agora, construiremos a inversa de #{\eta_c}. Dada uma transformação natural #{\eta \from \Hom(X, -) \rightarrow F}, podemos obter um elemento de #{F(X)} de forma canônica: #{\eta(X)(\id_X)}. De fato, a priori só sabemos, com certeza, que \cat{C} possui o objeto #{X}. Assim, podemos olhar para #{\eta(X) \from \Hom(X, X) \to F(X)}. Mas o único elemento de #{\Hom(X, X)} que temos certeza que existe é #{\id_X}. De fato, essa identificação funciona: Dado #{c \in F(X)}, obtemos uma transfomação #{\eta_c}, donde recuperamos o elemento #{c} por ##{\eta_c(X)(\id_X) = F(\id_X)(c) = \id_{F(X)}(c) = c}, e reciprocamente, dada uma transformação natural #{\eta \from \Hom(X, -) \rightarrow F}, podemos obter um elemento #{c = \eta(X)(\id_X)} e respectivamente uma transformação natural #{\eta_c}. Resta mostrar que #{\eta_c = \eta}, e para tal, observe o seguinte diagrama:
+  \p{Agora, construiremos a inversa de #{\eta_c}. Dada uma transformação natural #{\eta \from \Hom(X, -) \rightarrow F}, podemos obter um elemento de #{F(X)} de forma canônica: #{\eta(X)(\id_X)}. De fato, a priori só sabemos, com certeza, que \cat{C} possui o objeto #{X}. Assim, podemos olhar para #{\eta(X) \from \Hom(X, X) \to F(X)}. Mas o único elemento de #{\Hom(X, X)} que temos certeza que existe é #{\id_X}. De fato, essa identificação funciona: Dado #{c \in F(X)}, obtemos uma transfomação #{\eta_c}, donde recuperamos o elemento #{c} por ##{\eta_c(X)(\id_X) = F(\id_X)(c) = \id_{F(X)}(c) = c,} e reciprocamente, dada uma transformação natural #{\eta \from \Hom(X, -) \rightarrow F}, podemos obter um elemento #{c = \eta(X)(\id_X)} e respectivamente uma transformação natural #{\eta_c}. Resta mostrar que #{\eta_c = \eta}, e para tal, observe o seguinte diagrama:
   \quiver{
     % https://q.uiver.app/#q=WzAsNCxbMCwwLCJcXG1hdGhybXtIb219KFgsIFgpIl0sWzIsMCwiXFxtYXRocm17SG9tfShYLCBZKSJdLFswLDIsIkYoWCkiXSxbMiwyLCJGKFkpIl0sWzAsMSwiZl8qIl0sWzIsMywiRihmKSIsMl0sWzAsMiwiXFxldGEoWCkiLDJdLFsxLDMsIlxcZXRhKFkpIl1d
     \begin{tikzcd}
@@ -36,7 +36,7 @@
       \arrow["{F(f)}"', from=3-1, to=3-3]
     \end{tikzcd}
   }
-  que comuta pela naturalidade de #{\eta}, e podemos aprender dele que ##{\eta(Y)(f) = F(f)(\eta(X)(\id_X)) = F(f)(c) = \eta_c(Y)(f)}. Assim, para todo #{Y \in \cat{C}} e #{f \in \Hom(X, Y)}, #{\eta} coincide com #{\eta_c}, e portanto eles são a mesma transformação natural, e obtemos uma bijeção #{c \mapsto \eta_c}.
+  que comuta pela naturalidade de #{\eta}, e podemos aprender dele que ##{\eta(Y)(f) = F(f)(\eta(X)(\id_X)) = F(f)(c) = \eta_c(Y)(f).} Assim, para todo #{Y \in \cat{C}} e #{f \in \Hom(X, Y)}, #{\eta} coincide com #{\eta_c}, e portanto eles são a mesma transformação natural, e obtemos uma bijeção #{c \mapsto \eta_c}.
   }
 
   \p{A demonstração é completamente análoga se tomarmos #{F} um funtor contravariante e #{\Hom(-, X)} ao invés de #{\Hom(X, -)}. Assim, obtemos uma bijeção entre #{\Nat(\Hom(-, X), F) = \Hom_{\cat{Set}^{\cat{C}^\op}}(\Hom(-, X), F)} e #{F(X)}. Esse é o famoso Lema de Coneda.}
