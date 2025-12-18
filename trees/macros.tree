@@ -379,7 +379,7 @@
     \subtree{
       \taxon{Demonstração}
       \body
-      \<html:p>[class]{blacksquare}{#{\blacksquare}}
+      \<html:span>[class]{blacksquare}{#{\blacksquare}}
     }
   }
 }

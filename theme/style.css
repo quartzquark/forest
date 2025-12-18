@@ -692,8 +692,12 @@ ol li ol li ol {
     max-width: none;
   }
 
-  .block:hover {
+  .block {
     border-right: 0;
+  }
+
+  .block:hover {
+    background-color: transparent;
   }
 
   span.tikzcd img {
