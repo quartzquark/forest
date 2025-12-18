@@ -9,7 +9,7 @@
   }
 
   \p{
-    Para a sobrejetividade, tome #{F = \Hom(X, -)} e #{Y \in \cat{C}} no Lema de Yoneda. Assim, obtemos uma bijeção #{\Hom(X, Y) \cong \Nat(\Hom(Y, -), \Hom(X, -))}.} 
+    Para a sobrejetividade, tome #{F = \Hom(X, -)} e #{Y \in \cat{C}} no Lema de Yoneda. Assim, obtemos uma bijeção ##{\Hom(X, Y) \cong \Nat(\Hom(Y, -), \Hom(X, -))}.} 
   
   \p{
     Seja #{\eta \from \Hom(Y, -) \Rightarrow \Hom(X, -)} uma transformação natural. Queremos mostrar a existência de um morfismo #{f \from X \to Y} tal que #{\eta = \Hom(f, -)}. Pelo parágrafo anterior, existe um único #{f \in \Hom(X, Y)} associado a #{\eta}, dado por #{f = \eta(Y)(\id_Y)}. Agora, para quaisquer #{Z, W \in \cat{C}} e #{g \from Z \to W}, pela naturalidade de #{\eta}, nós temos que o seguinte diagrama comuta:
