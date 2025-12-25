@@ -5,7 +5,7 @@
 \taxon{Definição}
 
 \p{
-  Uma \textbf{transformação natural} entre dois [funtores](cat-000a) #{F, G \from \catname{C} \to \catname{D}} é uma aplicação #{\eta} denotada #{\eta \from F \Rightarrow G} que, para cada objeto #{X \in \catname{C}}, associa um morfismo #{\eta(X) \from F(X) \to G(X)} em \catname{D}, de tal forma que os diagramas abaixo são comutativos. 
+  Uma \textbf{transformação natural} entre dois [funtores](cat-000A) #{F, G \from \catname{C} \to \catname{D}} é uma aplicação #{\eta} denotada #{\eta \from F \Rightarrow G} que, para cada objeto #{X \in \catname{C}}, associa um morfismo #{\eta(X) \from F(X) \to G(X)} em \catname{D}, de tal forma que os diagramas abaixo são comutativos. 
     % https://q.uiver.app/#q=WzAsOCxbNCwwLCJGKFgpIl0sWzYsMCwiRihZKSJdLFs0LDIsIkcoWCkiXSxbNiwyLCJHKFkpIl0sWzAsMSwiWCJdLFsyLDEsIlkiXSxbOCwxLCJcXG1hdGhiZntDfSJdLFsxMCwxLCJcXG1hdGhiZntEfSJdLFswLDIsIlxcZXRhKFgpIiwyXSxbMSwzLCJcXGV0YShZKSJdLFsyLDMsIkcoZikiLDJdLFswLDEsIkYoZikiXSxbNCw1LCJmIl0sWzYsNywiRiIsMCx7ImN1cnZlIjotMn1dLFs2LDcsIkciLDIseyJjdXJ2ZSI6Mn1dLFsxMywxNCwiXFxldGEiLDAseyJzaG9ydGVuIjp7InNvdXJjZSI6MjAsInRhcmdldCI6MjB9fV1d
     \tikzcd{
     	&&&& {F(X)} && {F(Y)} \\

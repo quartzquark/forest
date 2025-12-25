@@ -1,0 +1,13 @@
+\import{macros}
+\title{Funtores Hom preservam sequências exatas cindidas}
+\date{2025-12-24}
+\author{alice-micheloni}
+\taxon{Proposição}
+
+\p{
+  Sejam #{R \in \catname{CRing}} e #{M \in \Rmod}. Suponha que ##{0 \to A \xrightarrow{f} B \xrightarrow{g} C \to 0} é uma sequência exata cindida. Então ##{0 \to \Hom_R(M, A) \xrightarrow{f_*} \Hom_R(M, B) \xrightarrow{g_*} \Hom_R(M, C) \to 0} é uma sequência exata cindida.
+}
+
+\proof{
+  Ao usar que [[halg-001D]], para demonstrar a exatidão da sequência após aplicar #{\Hom_R(M, -)}, resta-nos mostrar que #{g_*} é sobrejetor. Tome então #{\alpha \from M \to C}, e como a sequência original cinde, sabemos que existe um #{u \from C \to B} tal que #{g \circ u = \id_C}. Com efeito, #{u_* \alpha \from M \to B} é tal que #{g_* u_* \alpha = (g \circ u)(\alpha) = \alpha}. A sequência resultante também cinde pois, como argumentado, #{g_*u_* = \id_{\Hom_R(M, C)}}.
+}

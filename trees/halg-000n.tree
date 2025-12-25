@@ -1,9 +1,0 @@
-\import{macros}
-\title{Produtos e coprodutos finitos}
-\date{2025-12-24}
-\author{alice-micheloni}
-\taxon{Observação}
-
-\p{
-  Se #{I} é um conjunto finito (o conjunto índice no produto direto ou soma direta), o produto direto e a soma direta coincidem, e o ambos viram [produtos](halg-000j) e [coprodutos](cat-0009).
-}

@@ -9,7 +9,7 @@
 }
 
 \p{
-  Munidos disso, ao usarmos o [primeiro teorema do isomorfismo](halg-000c), a injetividade de #{f} e a sobrejetividade de #{g}, obtemos que ##{L \cong  L / \ker f \cong \im f} e também ##{N = \im g \cong M / \ker g = M / \im f \cong M / L.}
+  Munidos disso, ao usarmos o [primeiro teorema do isomorfismo](halg-000C), a injetividade de #{f} e a sobrejetividade de #{g}, obtemos que ##{L \cong  L / \ker f \cong \im f} e também ##{N = \im g \cong M / \ker g = M / \im f \cong M / L.}
 }
 
 \p{

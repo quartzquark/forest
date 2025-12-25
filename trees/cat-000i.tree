@@ -1,9 +1,0 @@
-\title{Isomorfismo natural}
-\date{2025-12-15}
-\author{alice-micheloni}
-\import{macros}
-\taxon{Definição}
-
-\p{
-  Seja #{\eta \from F \Rightarrow G} uma [transformação natural](cat-000h). Se para todo #{X \in \dom F} temos que #{\eta(X)} é um isomorfismo, diz-se que #{\eta} é um \textbf{isomorfismo natural}, e denotamos #{F \cong G}.
-}

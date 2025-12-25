@@ -31,7 +31,7 @@
       \arrow[from=3-2, to=2-3]
     \end{tikzcd}
   }
-  Esse diagrama representa a categoria índice, onde cada ponto é um objeto e cada flecha é um morfismo. Também construímos ela de modo que os “caminhos” de morfismos comutam entre si, isto é, se enxergamos a categoria como um diagrama, ela comuta.} \p{Definimos a imagem do ponto preto pelo nosso funtor como sendo #{A}, do ponto vermelho como sendo #{B}, e assim sucessivamente.} \p{Cada morfismo na categoria índice é levado para seu morfismo associado no diagrama de cima, e como os morfismos comutam na categoria/diagrama de baixo (por decreto) e [funtores preservam diagramas comutativos](cat-000b), reobtemos o primeiro diagrama.
+  Esse diagrama representa a categoria índice, onde cada ponto é um objeto e cada flecha é um morfismo. Também construímos ela de modo que os “caminhos” de morfismos comutam entre si, isto é, se enxergamos a categoria como um diagrama, ela comuta.} \p{Definimos a imagem do ponto preto pelo nosso funtor como sendo #{A}, do ponto vermelho como sendo #{B}, e assim sucessivamente.} \p{Cada morfismo na categoria índice é levado para seu morfismo associado no diagrama de cima, e como os morfismos comutam na categoria/diagrama de baixo (por decreto) e [funtores preservam diagramas comutativos](cat-000B), reobtemos o primeiro diagrama.
 }
 
 \p{

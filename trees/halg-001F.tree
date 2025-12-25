@@ -1,0 +1,9 @@
+\import{macros}
+\title{Módulo livre}
+\date{2025-12-24}
+\author{alice-micheloni}
+\taxon{Definição}
+
+\p{
+  Um módulo que admite [base](halg-000Q) é chamado de \textbf{módulo livre}. (O adjetivo “livre” não se repete à toa de [grupos livres](halg-0001) - ambos podem ser gerados a partir de um determinado conjunto, nosso #{B} é o equivalente do #{A} na definição de grupo livre.)
+}

@@ -5,7 +5,7 @@
 \taxon{Exemplo}
 
 \p{
-  Seja \catname{C} uma categoria. Então, para quaisquer objetos #{A, B \in \catname{C}}, definimos dois [funtores](cat-000a):
+  Seja \catname{C} uma categoria. Então, para quaisquer objetos #{A, B \in \catname{C}}, definimos dois [funtores](cat-000A):
     \ul{
         \li{Um funtor covariante ##{\Hom_\catname{C}(A, -) \from \catname{C} \to \catname{Set},}
         que leva cada objeto #{X \in \catname{C}} ao conjunto #{\Hom(A, X)} e cada morfismo #{f \from X \to Y} à função #{f_*}, a pós-composição de #{f}, definida por ##{\begin{array}{ccc}

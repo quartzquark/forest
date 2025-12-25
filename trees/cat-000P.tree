@@ -5,11 +5,11 @@
 \taxon{Observação}
 
 \p{
-  Uma vez que [#{\yo} é plenamente fiel](cat-000o), usando que [funtores plenamente fiéis preservam isomorfismos](cat-000n), obtemos que #{X \cong Y \iff \Hom(X, -) \cong \Hom(Y, -)}. Eu particularmente acho esse um dos resultados mais lindos que já vi. A ida é óbvia; já a volta nos diz que o objeto que estamos estudando é essencialmente irrelevante, pois é completamente determinado (a menos de isomorfismo) pelos morfismos que saem dele.
+  Uma vez que [#{\yo} é plenamente fiel](cat-000O), usando que [funtores plenamente fiéis preservam isomorfismos](cat-000N), obtemos que #{X \cong Y \iff \Hom(X, -) \cong \Hom(Y, -)}. Eu particularmente acho esse um dos resultados mais lindos que já vi. A ida é óbvia; já a volta nos diz que o objeto que estamos estudando é essencialmente irrelevante, pois é completamente determinado (a menos de isomorfismo) pelos morfismos que saem dele.
 }
   
 \p{
-  Pode-se obter um resultado de forma completamente análoga usando o [Lema de Coneda](cat-000l) e fazendo #{\yo \from X \mapsto \Hom(-, X)} (que se torna um funtor covariante), onde obtemos #{X \cong Y \iff \Hom(-, X) \cong \Hom(-, Y)}, e portanto se estamos estudando as funções onde #{X} é domínio, não estamos ganhando nem perdendo nenhuma informação comparado a olhar as funções onde #{Y} é contradomínio.
+  Pode-se obter um resultado de forma completamente análoga usando o [Lema de Coneda](cat-000L) e fazendo #{\yo \from X \mapsto \Hom(-, X)} (que se torna um funtor covariante), onde obtemos #{X \cong Y \iff \Hom(-, X) \cong \Hom(-, Y)}, e portanto se estamos estudando as funções onde #{X} é domínio, não estamos ganhando nem perdendo nenhuma informação comparado a olhar as funções onde #{Y} é contradomínio.
 }
 
 \p{

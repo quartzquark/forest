@@ -1,8 +1,0 @@
-\title{Funtores de esquecimento}
-\date{2025-12-15}
-\author{alice-micheloni}
-\import{macros}
-\taxon{Definição}
-
-\p{Um \textbf{funtor de esquecimento} é um [funtor](cat-000a) que perde alguma estrutura de uma categoria. Por exemplo, o funtor #{F \from \catname{Grp} \to \catname{Set}} leva grupos aos conjuntos que os compõem, e os homomorfismos de grupo são levados em apenas funções. O funtor #{G \from \catname{Ring} \to \catname{Ab}} que simplesmente esquece a estrutura multiplicativa de um anel.
-}

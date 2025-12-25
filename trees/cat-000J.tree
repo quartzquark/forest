@@ -1,0 +1,28 @@
+\title{Discussão acerca do Lema de Yoneda}
+\date{2025-12-16}
+\author{alice-micheloni}
+\import{macros}
+
+\p{
+  Essa árvore é baseada principalmente no texto [[yoneda-lemma]]. As ilustrações de lá são excelentes.
+}
+
+\p{
+  A presente discussão também fortemente motiva a definição e introdução de [transformações naturais](cat-000H).
+}
+
+\transclude{cat-000K}
+
+\transclude{cat-000D}
+
+\transclude{cat-000L}
+
+\transclude{cat-000M}
+
+\transclude{cat-000E}
+
+\transclude{cat-000O}
+
+\transclude{cat-000N}
+
+\transclude{cat-000P}

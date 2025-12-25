@@ -1,0 +1,19 @@
+\import{macros}
+\title{Funtores exatos}
+\date{2025-12-24}
+\author{alice-micheloni}
+\taxon{}
+
+\p{
+  Nessa seção, retornaremos à definição de [funtores Hom](cat-000D) e definiremos funtores #{A \otimes -}, e mostraremos que ambos satisfazem certas propriedades especiais.
+}
+
+\transclude{halg-001C}
+
+\transclude{halg-001D}
+
+\transclude{halg-001E}
+
+\transclude{halg-001G}
+
+\transclude{halg-001H}

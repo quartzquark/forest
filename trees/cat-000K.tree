@@ -1,0 +1,13 @@
+\import{macros}
+\title{Categorias #{\cat{Set}^{\cat{C}}} e #{\cat{Set}^{\cat{C}^\op}}}
+\date{2025-12-16}
+\author{alice-micheloni}
+\taxon{Definição}
+
+\p{
+  Para uma [categoria](cat-0001) #{\cat{C}}, o conjunto dos funtores #{F \from \cat{C} \to \cat{Set}} formam uma categoria, chamada de #{\cat{Set}^{\cat{C}}}. De forma análoga, os funtores #{F \from \cat{C}^\op \to \cat{Set}} (também conhecidos como pré-feixes) também formam uma categoria, chamada de #{\cat{Set}^{\cat{C}^\op}} (ou ainda, a categoria dos pré-feixes em \cat{C}). Em ambos os casos, os morfismos são transformações naturais entre esses funtores.
+}
+
+\p{
+  Isso de fato forma uma categoria: Sejam #{U \in \cat{C}} um objeto de #{C}, #{F, G, H \in #{\cat{Set}^{\cat{C}}}} (ou #{\in #{\cat{Set}^{\cat{C}^\op}}}) funtores de \cat{C} em \cat{Set}, #{\eta \from F \Rightarrow G} e #{\theta \from G \Rightarrow H} um par de [transformações naturais](cat-000H). Então #{(\theta \circ \eta)(U) := #{\theta(U) \circ \eta(U)}} é uma transformação natural #{(\theta \circ \eta) \from F \to H}, e essa definição já nos dá associatividade de graça, pois a composição de transfomações naturais é apenas composição de funções de conjuntos. Tome também #{(\id_F)(U) := \id_{F(U)}}. Essa transformação é evidentemente natural, ergo ambos #{\cat{Set}^{\cat{C}}} e #{\cat{Set}^{\cat{C}^\op}} são categorias.
+}

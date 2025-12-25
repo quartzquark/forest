@@ -4,7 +4,7 @@
 \import{macros}
 \taxon{Proposição}
 
-\p{Como [funtores](cat-000a) preservam composições de morfismos, segue que funtores também preservam a comutatividade de diagramas:
+\p{Como [funtores](cat-000A) preservam composições de morfismos, segue que funtores também preservam a comutatividade de diagramas:
 Se o seguinte diagrama % https://q.uiver.app/#q=WzAsNCxbMCwxLCJBIl0sWzEsMCwiQiJdLFsyLDEsIkQiXSxbMSwyLCJDIl0sWzAsMV0sWzEsMl0sWzAsM10sWzMsMl0sWzAsMl1d
 \quiver{\begin{tikzcd}
 	& B \\

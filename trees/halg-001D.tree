@@ -1,5 +1,5 @@
 \import{macros}
-\title{[Funtores Hom](cat-000d) são exatos à esquerda}
+\title{[Funtores Hom](cat-000D) são exatos à esquerda}
 \date{2025-12-24}
 \author{alice-micheloni}
 \taxon{Proposição}
@@ -42,12 +42,12 @@
 }
 
 \corolario{
-  Funtores Hom são exatos em [módulos livres](halg-001f)
+  Funtores Hom são exatos em [módulos livres](halg-001F)
 }{
   \p{
       Sejam #{R \in \catname{CRing}} e #{M \in \Rmod} um módulo livre. Então os funtores #{\Hom_R(M, -)} e #{\Hom_R(-, M)} são exatos.
   }
   \proof{
-        Como [funtores Hom são exatos à esquerda](halg-001d), #{\Hom_R(M, -)} é exato à esquerda. Resta mostrar então #{g_*} é sobrejetor, para #{g \from B \to C} sobrejetor como na proposição anterior. Isso reduz-se a, para todo #{\alpha \from M \to C}, escolhermos #{\beta \from M \to B} tal que #{g_*\beta = \alpha}. Fixe agora #{\mathcal{B}} uma base de #{M}, e para cada #{b \in \mathcal{B}}, tomar #{\beta(b) \in g^{-1}(\alpha(b))}. Como #{g} é sobrejetor, #{g^{-1}(\alpha(b)) \neq \emptyset}, para todo #{b}, e então podemos estender #{\beta} linearmente para que esteja definida em todo #{M}. A demonstração é análoga para #{\Hom(-, M)}.
+        Como [funtores Hom são exatos à esquerda](halg-001D), #{\Hom_R(M, -)} é exato à esquerda. Resta mostrar então #{g_*} é sobrejetor, para #{g \from B \to C} sobrejetor como na proposição anterior. Isso reduz-se a, para todo #{\alpha \from M \to C}, escolhermos #{\beta \from M \to B} tal que #{g_*\beta = \alpha}. Fixe agora #{\mathcal{B}} uma base de #{M}, e para cada #{b \in \mathcal{B}}, tomar #{\beta(b) \in g^{-1}(\alpha(b))}. Como #{g} é sobrejetor, #{g^{-1}(\alpha(b)) \neq \emptyset}, para todo #{b}, e então podemos estender #{\beta} linearmente para que esteja definida em todo #{M}. A demonstração é análoga para #{\Hom(-, M)}.
   }
 }

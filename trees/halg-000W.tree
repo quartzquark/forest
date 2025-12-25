@@ -8,14 +8,14 @@
   Ao longo dessa seção, #{R} denotará um anel comutativo, associativo e com unidade.
 }
 
-\transclude{halg-000x}
+\transclude{halg-000X}
 
 \p{
   Uma vez que a #{\phi} não é um homomorfismo, nosso objetivo é estender a teoria já construída para os homomorfismos para as aplicações #{R}-bilineares. Para esse fim, construímos o seguinte módulo:
 }
 
-\transclude{halg-000y}
+\transclude{halg-000Y}
 
-\transclude{halg-000z}
+\transclude{halg-000Z}
 
 \transclude{halg-0010}

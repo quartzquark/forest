@@ -5,7 +5,7 @@
 \taxon{Definição}
 
 \p{
-  Dados #{R \in \catname{CRing}} e #{M \in \Rmod}, o [produto tensorial](halg-000y) dá origem à dois funtores #{\Rmod \to \Rmod}:
+  Dados #{R \in \catname{CRing}} e #{M \in \Rmod}, o [produto tensorial](halg-000Y) dá origem à dois funtores #{\Rmod \to \Rmod}:
 
   \ul{
       \li{#{- \otimes M}, um funtor definido em objetos por #{N \mapsto N \otimes M} e em morfismos #{f \from N \to L} por #{f \otimes 1}, onde ##{

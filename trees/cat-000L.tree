@@ -5,7 +5,7 @@
 \taxon{Teorema}
 
 \p{
-  Seja #{F \from \cat{C} \to \cat{Set}} um [funtor](cat-000a). Então, para cada #{X \in \cat{C}}, o conjunto das [transformações naturais](cat-000h) do [funtor Hom](cat-000d) em #{F} #{\Nat(\Hom(X, -), F) = \Hom_{\cat{Set}^\cat{C}}(\Hom(X, -), F)} está em correspondência biunívoca com os elementos de #{F(X)}. Isto é, ##{\Nat(\Hom(X, -), F) \cong F(X).} 
+  Seja #{F \from \cat{C} \to \cat{Set}} um [funtor](cat-000A). Então, para cada #{X \in \cat{C}}, o conjunto das [transformações naturais](cat-000H) do [funtor Hom](cat-000D) em #{F} #{\Nat(\Hom(X, -), F) = \Hom_{\cat{Set}^\cat{C}}(\Hom(X, -), F)} está em correspondência biunívoca com os elementos de #{F(X)}. Isto é, ##{\Nat(\Hom(X, -), F) \cong F(X).} 
 }
 
 \proof{
