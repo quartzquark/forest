@@ -5,7 +5,7 @@
 \taxon{}
 
 \p{
-  Daqui em diante, #{R}-módulos à esquerda serão chamados apenas de "módulos" e #{R}-homomorfismos de "homomorfismos" e #{R} é um anel associativo com unidade.
+  Daqui em diante, #{R}-módulos à esquerda serão chamados apenas de “módulos” e #{R}-homomorfismos de “homomorfismos” e #{R} é um anel associativo com unidade.
 }
 
 \transclude{halg-000j}

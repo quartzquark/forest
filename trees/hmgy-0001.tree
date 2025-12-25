@@ -4,4 +4,8 @@
 
 \p{Anotações em Álgebra Homológica e Homologia. A principal referência usada é a [[topologia-algebrica]].}
 
+\p{
+  Será assumido conhecimento básico em [Teoria das Categorias](cat-000r), Teoria de Anéis e Teoria de Grupos.
+}
+
 \transclude{halg-000h}

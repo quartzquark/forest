@@ -43,7 +43,7 @@
 }
 
 \p{
-  O lema acima nos dá condições para afirmar que uma sequência exata #{0 \to L \to M \to N \to 0} cinde quando ela é "isomorfa" à sequência #{0 \to L \to L \oplus N \to N \to 0}. Podemos denotar uma sequência exata cindida por meio do diagrama
+  O lema acima nos dá condições para afirmar que uma sequência exata #{0 \to L \to M \to N \to 0} cinde quando ela é “isomorfa” à sequência #{0 \to L \to L \oplus N \to N \to 0}. Podemos denotar uma sequência exata cindida por meio do diagrama
   \quiver{
     \begin{tikzcd}
 	0 & L & M & N & 0

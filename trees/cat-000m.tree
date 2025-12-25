@@ -13,5 +13,5 @@
     \end{aligned}
   }
 
-  onde #{\Hom(f, -)}, para #{f \from X \to Y}, é uma transformação natural #{\Hom(Y, -) \Rightarrow \Hom(X, -)}, onde dado #{Z \in \cat{C}}, obtemos ##{\begin{aligned}\Hom(f, Z) \from \Hom(Y, Z) &\to \Hom(X, Z) \\ g &\mapsto g \circ f.\end{aligned}} Essa definição é a mesma de #{f^*}, e portanto #{\Hom(f, -)} come objetos de \cat{C} e os leva em #{\Hom(f, Z) = f^*}, uma função de \cat{Set}. (Eu acho o máximo usar hiragana em matemática. #{\yo} é pronunciado como "yo".)
+  onde #{\Hom(f, -)}, para #{f \from X \to Y}, é uma transformação natural #{\Hom(Y, -) \Rightarrow \Hom(X, -)}, onde dado #{Z \in \cat{C}}, obtemos ##{\begin{aligned}\Hom(f, Z) \from \Hom(Y, Z) &\to \Hom(X, Z) \\ g &\mapsto g \circ f.\end{aligned}} Essa definição é a mesma de #{f^*}, e portanto #{\Hom(f, -)} come objetos de \cat{C} e os leva em #{\Hom(f, Z) = f^*}, uma função de \cat{Set}. (Eu acho o máximo usar hiragana em matemática. #{\yo} é pronunciado como “yo”.)
 }

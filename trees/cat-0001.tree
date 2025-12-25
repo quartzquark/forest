@@ -22,7 +22,7 @@
         \li{Para todo #{A, B \in \Obj(\catname{C})} e #{f \in \Hom_\catname{C}(A, B)}, vale #{f \circ 1_A = 1_B \circ f = f}.}
     }}
 
-\p{Note que usamos a palavra "coleção" ao invés de "conjunto"; isso não é ao acaso, observe que em cada um dos [exemplos abaixo](cat-0002), a existência de um conjunto que contém cada um dos objetos de cada categoria implicaria o paradoxo de Russell. Não lidaremos com esses problemas fundacionais nesse texto, que podem ser apropriadamente resolvidos ao escolher um sistema axiomático propício.
+\p{Note que usamos a palavra “coleção” ao invés de “conjunto”; isso não é ao acaso, observe que em cada um dos [exemplos abaixo](cat-0002), a existência de um conjunto que contém cada um dos objetos de cada categoria implicaria o paradoxo de Russell. Não lidaremos com esses problemas fundacionais nesse texto, que podem ser apropriadamente resolvidos ao escolher um sistema axiomático propício.
 }
 
 \notacao{Fixaremos também algumas convenções: \ul{
