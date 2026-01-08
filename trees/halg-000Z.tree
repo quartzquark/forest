@@ -14,7 +14,7 @@
 
 \proof{
   \p{
-    Sejam #{L} o submódulo de #{M \otimes_R N} gerado por #{ \sum_i m_i \otimes n_i}, e #{Q = \faktor{M \otimes_R N}{L}}, com #{\pi_Q} a sua projeção correspondente. Portanto, por construção, #{\pi_Q \circ \otimes = 0}, mas ao mesmo tempo, #{0 \circ \otimes = 0}. Dessa forma, pela unicidade da propriedade universal, temos #{\pi_Q = 0} e portanto #{Q = \{0\}}, donde concluímos que #{L = M \otimes_R N}.
+    Sejam #{L} o submódulo de #{M \otimes_R N} gerado por #{ \sum_i m_i \otimes n_i}, e #{Q = M \otimes_R N/L}, com #{\pi_Q} a sua projeção correspondente. Portanto, por construção, #{\pi_Q \circ \otimes = 0}, mas ao mesmo tempo, #{0 \circ \otimes = 0}. Dessa forma, pela unicidade da propriedade universal, temos #{\pi_Q = 0} e portanto #{Q = \{0\}}, donde concluímos que #{L = M \otimes_R N}.
   }
   \p{
     A segunda afirmação pode ser demonstrada ao observar que #{m \otimes n}, para #{m \in M} e #{n \in N}, gera o módulo #{M \otimes_R N}, pelo parágrafo anterior. Assim, #{f} e #{g} coincidem no conjunto gerador de #{M \otimes_R N}, e portanto #{f = g}.

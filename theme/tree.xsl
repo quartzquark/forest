@@ -11,7 +11,7 @@
       <head>
         <meta name="viewport" content="width=device-width" />
         <meta name="theme-color" content="#1e1e1e" />
-        <link rel="icon" href="favicon.ico" />
+        <link rel="icon" type="image/png" href="{/f:tree/@base-url}favicon.png" />
         <style>html, body { background-color: rgb(255, 243, 229); } </style>
         <link rel="stylesheet" href="{/f:tree/@base-url}style.css" />
         <link rel="stylesheet" href="{/f:tree/@base-url}katex.min.css" />
